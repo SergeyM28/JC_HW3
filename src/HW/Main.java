@@ -1,9 +1,23 @@
-//2. Напишите обобщенный метод compareArrays(), который принимает два массива и возвращает true, если они одинаковые,
+package HW;//2. Напишите обобщенный метод compareArrays(), который принимает два массива и возвращает true, если они одинаковые,
 //   и false в противном случае. Массивы могут быть любого типа данных, но должны иметь одинаковую
 //   длину и содержать элементы одного типа.
 
+
 public class Main {
     public static void main(String[] args) {
+        //Task1
+        //Мой калькулятор все приводит к киту double. Это простой путь, и я получаю потерю точности преобразовании
+        //пока не придумал лучшего решения
+        System.out.println("Task1");
+        float a = 10.15f;
+        int b = 5;
+        System.out.println(Calculator.sum(a, b));
+        System.out.println(Calculator.subtract(a, b));
+        System.out.println(Calculator.multiply(a, b));
+        System.out.println(Calculator.divide(a, b));
+
+        //Task2
+        System.out.println("\nTask2");
         Integer[]arr1 = {1, 2, 3};
         Integer[]arr2 = {1, 2, 3};
         Integer[]arr3 = {1, 2, 3, 4};
@@ -15,6 +29,13 @@ public class Main {
         System.out.println(arrayProcessor.compareArrays(arr1, arr3)); //разная длина. false
         System.out.println(arrayProcessor.compareArrays(arr1, arr4)); //разные значения. false
         System.out.println(arrayProcessor.compareArrays(arr1, arr5)); //разные типы данных. false
+
+        //Task3
+        System.out.println("\nTask3");
+        Pair<Integer, String> pair = new Pair<>(1, "один");
+        System.out.println(pair.getFirst());
+        System.out.println(pair.getSecond());
+        System.out.println(pair);
     }
 
 }
