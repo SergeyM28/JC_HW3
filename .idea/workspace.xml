@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a38589-a222-409a-a43f-b90fc4bf0f3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JC_HW3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW/ArrayProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HW/Pair.java" afterDir="false" />
-    </list>
+    <list default="true" id="11a38589-a222-409a-a43f-b90fc4bf0f3c" name="Changes" comment="HW JavaCore3 by Mikhailov Sergei done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +42,14 @@
       <option name="presentableId" value="Default" />
       <updated>1698169395833</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW JavaCore3 by Mikhailov Sergei done">
+      <created>1698173951234</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698173951234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,5 +62,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW JavaCore3 by Mikhailov Sergei done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW JavaCore3 by Mikhailov Sergei done" />
   </component>
 </project>
